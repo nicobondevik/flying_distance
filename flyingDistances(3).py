@@ -101,7 +101,6 @@ latDegrees2, latMinutes2, latDir2 = coordinate_splitter(lat2)
 longDegrees2, longMinutes2, longDir2 = coordinate_splitter(long2)
 
 # convert to integers
-int_convert = []
 latDegrees1, latMinutes1, latDir1 = int(latDegrees1), int(latMinutes1), int(latDir1)
 longDegrees1, longMinutes1, longDir1 = int(longDegrees1), int(longMinutes1), int(longDir1)
 latDegrees2, latMinutes2, latDir2 = int(latDegrees2), int(latMinutes2), int(latDir2)
